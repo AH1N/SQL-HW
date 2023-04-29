@@ -1,7 +1,14 @@
 /*
 создаём таблице из ссылки https://drive.google.com/file/d/1PQn576YVakvlWrIgIjSP9YEf5id4cqYs/view?usp=sharing
 */
-
+CREATE TABLE  AUTO 
+(       
+	REGNUM VARCHAR(10) PRIMARY KEY, 
+	MARK VARCHAR(10), 
+	COLOR VARCHAR(15),
+	RELEASEDT DATE, 
+	PHONENUM VARCHAR(15)
+);
 
 INSERT INTO AUTO1 (REGNUM, MARK, COLOR, RELEASEDT, PHONENUM )
 VALUES(111114,'LADA', 'КРАСНЫЙ', date'2008-01-01', '9152222221');
